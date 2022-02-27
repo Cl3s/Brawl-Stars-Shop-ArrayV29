@@ -6,7 +6,7 @@
             self.writeVint(0) # ShopType, 0 = Offer, 2 = Skin, 3 = Star Shop
             self.writeVint(9) # Cost
             self.writeVint(99999) # Timer
-            self.writeVint(1) # 1 Unknown
+            self.writeVint(1) # is Offer Viewed?
             self.writeVint(100) # 100 Unknown
             self.writeBoolean(False) # is Offer Purchased?
             self.writeBoolean(False) # False Unknown
