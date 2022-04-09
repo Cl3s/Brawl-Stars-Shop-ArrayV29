@@ -11,7 +11,7 @@
             self.writeBoolean(False) # Offer Purchased?
             self.writeBoolean(False) # False Unknown
             self.writeVint(0) # ShopDisplay, 0 = Normal, 1 = Daily Deals
-            self.writeBoolean(False) # False Unknown
+            self.writeVint(0) # Original Offer Price
             self.writeVint(0) # If != 0 - Special Offer Text
             self.writeInt(0) # 0 Unknown(Error)
             self.write_string_reference('') # OfferName
